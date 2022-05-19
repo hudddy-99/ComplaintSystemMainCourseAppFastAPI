@@ -1,8 +1,4 @@
-from pydantic import BaseModel
 from schemas.base import UserBase
-
-
-
 
 
 class UserRegisterIn(UserBase):
@@ -11,6 +7,7 @@ class UserRegisterIn(UserBase):
     first_name: str
     last_name: str
     iban: str
+
 
 class UserLoginIn(UserBase):
     password: str

@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+
 from resources import auth, complaint, user
 
 api_router = APIRouter()
